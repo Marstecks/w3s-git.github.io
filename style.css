@@ -25,5 +25,22 @@
     width: 80%;
     height: auto;
     border-radius: 10%;
-    padding: 10%;
+    padding: 10px;
+  /*  object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+>>>>>>> hello-world-image*/
+}
+.container .img-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    padding: 5px 2%;
+}
+.img-container img {
+    flex: 50%;
+    display: inline;
+    margin: 10px 3px;
+    width: 45%;
 }
